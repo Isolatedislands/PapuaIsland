@@ -1,283 +1,302 @@
-Superheading,Heading,Sub-Heading,Resource Links
-SEM1,,,
-,1. MACHINE LEARNING (AIMLC ZG565),,
-,,"Books	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,"Lectures PPT	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,"Lecture Videos	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,"		",,
-,2. ARTIFICIAL & COMP INTELLIGENCE (AIMLC ZG557),,
-,,"Books	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,"Lectures PPT	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,"Lecture Videos	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,"		",,
-,3. INTRO TO STATISTICAL METHODS (AIMLC ZC418),,
-,,"Books	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,"Lectures PPT	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,"Lecture Videos	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,,
-,4. MATH FOUNDATIONS FOR MACHINE LEARNING (AIMLC ZC416),,
-,,"Books	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,"Lectures PPT	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,"Lecture Videos	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,,
-SEM2,,,
-,1. DEEP REINFORCEMENT LEARNING (AIMLC ZG512),,
-,,"Books	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,"Lectures PPT	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,"Lecture Videos	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,"		",,
-,2. DATA MGMT FOR MACHINE LEARNING (AIMLC ZG529),,
-,,"Books	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,"Lectures PPT	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,"Lecture Videos	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,"		",,
-,3. PROBABILISTIC GRAPHICAL MODELS (AIMLC ZG526),,
-,,"Books	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,"Lectures PPT	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,"Lecture Videos	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,,
-,4. DEEP NEURAL NETWORKS (AIMLC ZG511),,
-,,"Books	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,"Lectures PPT	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,"Lecture Videos	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,,
-,5. Other,,
-,,"Books	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,"Lectures PPT	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,"Lecture Videos	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,,
-,6 Other-1,,
-,,"Books	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,"Lectures PPT	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,"Lecture Videos	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,,
-,7. Other-2,,
-,,"Books	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,"Lectures PPT	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,"Lecture Videos	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,,
-,8. Other-3,,
-,,"Books	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,"Lectures PPT	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,"Lecture Videos	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,,
-SEM3,,,
-,1. VIDEO ANALYTICS (AIMLC ZG531),,
-,,"Books	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,"Lectures PPT	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,"Lecture Videos	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,"		",,
-,2. MLOPS (AIMLC ZG523),,
-,,"Books	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,"Lectures PPT	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,"Lecture Videos	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,"		",,
-,3. GRAPH NEURAL NETWORKS (AIMLC ZG514),,
-,,"Books	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,"Lectures PPT	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,"Lecture Videos	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,,
-,4. ADVANCED DEEP LEARNING (AIMLC ZG513),,
-,,"Books	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,"Lectures PPT	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,"Lecture Videos	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,,
-,5. Other,,
-,,"Books	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,"Lectures PPT	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,"Lecture Videos	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,,
-,6 Other-1,,
-,,"Books	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,"Lectures PPT	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,"Lecture Videos	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,,
-,7. Other-2,,
-,,"Books	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,"Lectures PPT	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,"Lecture Videos	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,,
-,8. Other-3,,
-,,"Books	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,"Lectures PPT	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
-,,"Lecture Videos	",
-,,,Info link-1
-,,,Info link-2
-,,,Info link-3
+Superheading,Heading,Sub-Heading,Resource Links,Actual URL,Info
+SEM1,,,,,
+,1. MACHINE LEARNING (AIMLC ZG565),,,,
+,,"Books	",,,
+,,,Info link-1, www.example.com,
+,,,Info link-2, www.example.com,
+,,,Info link-3, www.example.com,
+,,"Lectures PPT	",,,
+,,,Info link-1, www.example.com,
+,,,Info link-2, www.example.com,
+,,,Info link-3, www.example.com,
+,,"Lecture Videos	",,,
+,,,Info link-1, www.example.com,
+,,,Info link-2, www.example.com,
+,,,Info link-3, www.example.com,
+,"		",,,,
+,2. ARTIFICIAL & COMP INTELLIGENCE (AIMLC ZG557),,,,
+,,"Books	",,,
+,,,Info link-1, www.example.com,
+,,,Info link-2, www.example.com,
+,,,Info link-3, www.example.com,
+,,"Lectures PPT	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,"Lecture Videos	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,"		",,,,
+,3. INTRO TO STATISTICAL METHODS (AIMLC ZC418),,,,
+,,"Books	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,"Lectures PPT	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,"Lecture Videos	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,,,,
+,4. MATH FOUNDATIONS FOR MACHINE LEARNING (AIMLC ZC416),,,,
+,,"Books	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,"Lectures PPT	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,"Lecture Videos	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,,,,
+SEM2,,,,,
+,1. DEEP REINFORCEMENT LEARNING (AIMLC ZG512),,,,
+,,"Books	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,"Lectures PPT	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,"Lecture Videos	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,"		",,,,
+,2. DATA MGMT FOR MACHINE LEARNING (AIMLC ZG529),,,,
+,,"Books	",,,Chandan:git
+,,,Data Engineering_Paul,https://tinyurl.com/2bc38sz4,
+,,,Designing data-...O'Reilly Media (2018),https://tinyurl.com/26edqvyp,
+,,,Data Pipelines Pocket..James Densmore -O'Reilly Media (2021),https://tinyurl.com/263g284d,
+,,,"H.Hapke, C.Nelson - Building Machine Learning Pipelines...O'Reilly Media (2020)",https://tinyurl.com/2y4revta,
+,,,"Joe Reis, Matt Housley- Fundamentals of Data Engineering...-O'Reilly Media (2022)",https://tinyurl.com/25kfan29,
+,,,"C.Chen, N.Murphy, K.Parisa, D.Sculley, T.Underwo",https://tinyurl.com/238ll9d9,
+,,"Lectures PPT	",,,Chandan:git
+,,,All Classes,https://tinyurl.com/2cerrc8g,
+,,,,,
+,,Lecture Videos (5/16),,,Chandan
+,,,Lecture-1,https://youtu.be/j-pkC2le7-Q,
+,,,Lecture-2,https://youtu.be/EvsVbOyqOPw,
+,,,Lecture-3,https://youtu.be/MrD9LestpEc,
+,,,Lecture-4,https://youtu.be/Km-ezk55ucM,
+,,,Lecture-5,https://youtu.be/WCyZziXXPBE,
+,"		",,Lecture-6,,
+,,,Lecture-7,,
+,,,Lecture-8,,
+,,,Lecture-9,,
+,,,Lecture-10,,
+,,,Lecture-11,,
+,,,Lecture-12,,
+,,,Lecture-13,,
+,,,Lecture-14,,
+,,,Lecture-15,,
+,,,Lecture-16,,
+,,,,,
+,3. PROBABILISTIC GRAPHICAL MODELS (AIMLC ZG526),,,,
+,,"Books	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,"Lectures PPT	",,,
+,,,All Classes,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,"Lecture Videos	",,,
+,,,Lecture-1,,
+,,,Lecture-2,,
+,,,,,
+,4. DEEP NEURAL NETWORKS (AIMLC ZG511),,,,
+,,"Books	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,"Lectures PPT	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,Lecture Videos(6/16),,,Chandan dev @Chandandev-p1x
+,,,Lecture-1,https://youtu.be/x5RWnliv5Vo,
+,,,Lecture-2,https://youtu.be/VTUU3OQq8tc,
+,,,Lecture-3,https://youtu.be/kMbwhCJ6Ub0,
+,,,Lecture-4,https://youtu.be/T0uw1PexBgc,
+,,,Lecture-5,https://youtu.be/_-z8M2knOHc,
+,,,Lecture-6,,
+,,,Lecture-7,https://youtu.be/bmuK-0uojpw,
+,,,Lecture-8,,
+,,,,,
+,5. Other,,,,
+,,"Books	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,"Lectures PPT	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,"Lecture Videos	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,,,,
+,6 Other-1,,,,
+,,"Books	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,"Lectures PPT	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,"Lecture Videos	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,,,,
+,7. Other-2,,,,
+,,"Books	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,"Lectures PPT	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,"Lecture Videos	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,,,,
+,8. Other-3,,,,
+,,"Books	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,"Lectures PPT	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,"Lecture Videos	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,,,,
+,,,,,
+SEM3,1. VIDEO ANALYTICS (AIMLC ZG531),,,,
+,,"Books	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,"Lectures PPT	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,"Lecture Videos	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,"		",,,,
+,2. MLOPS (AIMLC ZG523),,,,
+,,"Books	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,"Lectures PPT	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,"Lecture Videos	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,"		",,,,
+,3. GRAPH NEURAL NETWORKS (AIMLC ZG514),,,,
+,,"Books	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,"Lectures PPT	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,"Lecture Videos	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,,,,
+,4. ADVANCED DEEP LEARNING (AIMLC ZG513),,,,
+,,"Books	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,"Lectures PPT	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,"Lecture Videos	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,,,,
+,5. Other,,,,
+,,"Books	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,"Lectures PPT	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,"Lecture Videos	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,,,,
+,6 Other-1,,,,
+,,"Books	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,"Lectures PPT	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,"Lecture Videos	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,,,,
+,7. Other-2,,,,
+,,"Books	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,"Lectures PPT	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,"Lecture Videos	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,,,,
+,8. Other-3,,,,
+,,"Books	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,"Lectures PPT	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,
+,,"Lecture Videos	",,,
+,,,Info link-1,,
+,,,Info link-2,,
+,,,Info link-3,,

@@ -3,492 +3,170 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AIML Course Content</title>
+    <title>AIML Course Modules (2022-2024)</title>
+	
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script> <!-- PapaParse for CSV parsing -->
     <style>
-        details summary {
-            cursor: pointer;
-            font-weight: bold;
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
         }
-        details ul {
+        h1 {
+            text-align: center;
+            padding: 20px;
+        }
+        details {
+            background-color: #fff;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+        }
+        details summary {
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .sub-heading {
+            font-size: 16px;
+            color: #007BFF; /* Blue color for sub-headings */
             margin-left: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 40px;
+        }
+        ul li {
+            margin: 5px 0;
+        }
+        a {
+            color: #ff5722; /* Orange color for links */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        #course-content {
+            margin: 20px;
         }
     </style>
 </head>
 <body>
 
-<h1><strong>Welcome to AIML Course Content (2022-2024)</strong></h1>
-<p><em>(There are a lot of things to write, but let's keep it simple <img src="https://html-online.com/editorfiles/tiny/plugins/emoticons/img/smiley-cool.gif" alt="cool" />)</em></p>
+<h1>BINS' WILP AIML Course Modeules (2022-2024)</h1>
+<h5>(There are a lot of things to write, but let's keep it simple <img src="https://html-online.com/editorfiles/tiny/plugins/emoticons/img/smiley-cool.gif" alt="cool" />)</h5>
+<h1>Semesters:</h1>
 
-    <!--************************ SEM 1 *************************************** -->
-<h2><strong>Sem-1</strong></h2>
+<div id="course-content">
+    <!-- Dynamic content will be added here -->
+</div>
 
-<details> 
-  <summary><strong>1. MACHINE LEARNING (AIMLC ZG565)</strong></summary>
-  <ul>
-    <li><a href="https://example.com/lecture1" target="_blank">Lecture-1</a></li>
-    <li><a href="https://example.com/lecture2" target="_blank">Lecture-2</a></li>
-    <li><a href="https://example.com/lecture3" target="_blank">Lecture-3</a></li>
-    <li><a href="https://example.com/lecture4" target="_blank">Lecture-4</a></li>
-    <li><a href="https://example.com/lecture5" target="_blank">Lecture-5</a></li>
-    <li><a href="https://example.com/lecture6" target="_blank">Lecture-6</a></li>
-    <li><a href="https://example.com/lecture7" target="_blank">Lecture-7</a></li>
-    <li><a href="https://example.com/lecture8" target="_blank">Lecture-8</a></li>
-    <li><a href="https://example.com/lecture9" target="_blank">Lecture-9</a></li>
-    <li><a href="https://example.com/lecture10" target="_blank">Lecture-10</a></li>
-    <li><a href="https://example.com/lecture11" target="_blank">Lecture-11</a></li>
-    <li><a href="https://example.com/lecture12" target="_blank">Lecture-12</a></li>
-    <li><a href="https://example.com/lecture13" target="_blank">Lecture-13</a></li>
-    <li><a href="https://example.com/lecture14" target="_blank">Lecture-14</a></li>
-    <li><a href="https://example.com/lecture15" target="_blank">Lecture-15</a></li>
-    <li><a href="https://example.com/lecture16" target="_blank">Lecture-16</a></li>
-  </ul>
-</details>
+<script>
+    // Fetch and load the CSV file from the local directory
+    fetch('data.csv')
+        .then(response => response.text())
+        .then(text => {
+            // Parse the CSV file using PapaParse
+            Papa.parse(text, {
+                header: true,
+                skipEmptyLines: true, // Skip empty rows
+                complete: function(results) {
+                    processCSVData(results.data);
+                }
+            });
+        })
+        .catch(error => {
+            console.error('Error loading the CSV file:', error);
+        });
 
-<details>
-  <summary><strong>2. ARTIFICIAL & COMP INTELLIGENCE (AIMLC ZG557)</strong></summary>
-  <ul>
-    <li><a href="https://example.com/lecture1" target="_blank">Lecture-1</a></li>
-    <li><a href="https://example.com/lecture2" target="_blank">Lecture-2</a></li>
-    <li><a href="https://example.com/lecture3" target="_blank">Lecture-3</a></li>
-    <li><a href="https://example.com/lecture4" target="_blank">Lecture-4</a></li>
-    <li><a href="https://example.com/lecture5" target="_blank">Lecture-5</a></li>
-    <li><a href="https://example.com/lecture6" target="_blank">Lecture-6</a></li>
-    <li><a href="https://example.com/lecture7" target="_blank">Lecture-7</a></li>
-    <li><a href="https://example.com/lecture8" target="_blank">Lecture-8</a></li>
-    <li><a href="https://example.com/lecture9" target="_blank">Lecture-9</a></li>
-    <li><a href="https://example.com/lecture10" target="_blank">Lecture-10</a></li>
-    <li><a href="https://example.com/lecture11" target="_blank">Lecture-11</a></li>
-    <li><a href="https://example.com/lecture12" target="_blank">Lecture-12</a></li>
-    <li><a href="https://example.com/lecture13" target="_blank">Lecture-13</a></li>
-    <li><a href="https://example.com/lecture14" target="_blank">Lecture-14</a></li>
-    <li><a href="https://example.com/lecture15" target="_blank">Lecture-15</a></li>
-    <li><a href="https://example.com/lecture16" target="_blank">Lecture-16</a></li>
-  </ul>
-</details>
+    function processCSVData(data) {
+        const supermodules = {}; // Dictionary to store all data grouped by Superheading > Heading > Sub-Heading > Resource Links
+        let lastSuperheading = null;
+        let lastHeading = null;
+        let lastSubheading = null;
 
-<details>
-  <summary><strong>3. INTRO TO STATISTICAL METHODS (AIMLC ZC418)</strong></summary>
-  <ul>
-    <li><a href="https://example.com/lecture1" target="_blank">Lecture-1</a></li>
-    <li><a href="https://example.com/lecture2" target="_blank">Lecture-2</a></li>
-    <li><a href="https://example.com/lecture3" target="_blank">Lecture-3</a></li>
-    <li><a href="https://example.com/lecture4" target="_blank">Lecture-4</a></li>
-    <li><a href="https://example.com/lecture5" target="_blank">Lecture-5</a></li>
-    <li><a href="https://example.com/lecture6" target="_blank">Lecture-6</a></li>
-    <li><a href="https://example.com/lecture7" target="_blank">Lecture-7</a></li>
-    <li><a href="https://example.com/lecture8" target="_blank">Lecture-8</a></li>
-    <li><a href="https://example.com/lecture9" target="_blank">Lecture-9</a></li>
-    <li><a href="https://example.com/lecture10" target="_blank">Lecture-10</a></li>
-    <li><a href="https://example.com/lecture11" target="_blank">Lecture-11</a></li>
-    <li><a href="https://example.com/lecture12" target="_blank">Lecture-12</a></li>
-    <li><a href="https://example.com/lecture13" target="_blank">Lecture-13</a></li>
-    <li><a href="https://example.com/lecture14" target="_blank">Lecture-14</a></li>
-    <li><a href="https://example.com/lecture15" target="_blank">Lecture-15</a></li>
-    <li><a href="https://example.com/lecture16" target="_blank">Lecture-16</a></li>
-  </ul>
-</details>
+        // Iterate through the rows and group them by Superheading, Heading, and Sub-Heading
+        data.forEach(function(row, index) {
+            const superheading = row['Superheading'] ? row['Superheading'].trim() : '';
+            const heading = row['Heading'] ? row['Heading'].trim() : '';
+            const subheading = row['Sub-Heading'] ? row['Sub-Heading'].trim() : '';
+            const resourceLink = row['Resource Links'] ? row['Resource Links'].trim() : '';
 
-<details>
-  <summary><strong>4. MATH FOUNDATIONS FOR MACHINE LEARNING (AIMLC ZC416)</strong></summary>
-  <ul>
-    <li><a href="https://example.com/lecture1" target="_blank">Lecture-1</a></li>
-    <li><a href="https://example.com/lecture2" target="_blank">Lecture-2</a></li>
-    <li><a href="https://example.com/lecture3" target="_blank">Lecture-3</a></li>
-    <li><a href="https://example.com/lecture4" target="_blank">Lecture-4</a></li>
-    <li><a href="https://example.com/lecture5" target="_blank">Lecture-5</a></li>
-    <li><a href="https://example.com/lecture6" target="_blank">Lecture-6</a></li>
-    <li><a href="https://example.com/lecture7" target="_blank">Lecture-7</a></li>
-    <li><a href="https://example.com/lecture8" target="_blank">Lecture-8</a></li>
-    <li><a href="https://example.com/lecture9" target="_blank">Lecture-9</a></li>
-    <li><a href="https://example.com/lecture10" target="_blank">Lecture-10</a></li>
-    <li><a href="https://example.com/lecture11" target="_blank">Lecture-11</a></li>
-    <li><a href="https://example.com/lecture12" target="_blank">Lecture-12</a></li>
-    <li><a href="https://example.com/lecture13" target="_blank">Lecture-13</a></li>
-    <li><a href="https://example.com/lecture14" target="_blank">Lecture-14</a></li>
-    <li><a href="https://example.com/lecture15" target="_blank">Lecture-15</a></li>
-    <li><a href="https://example.com/lecture16" target="_blank">Lecture-16</a></li>
-  </ul>
-</details>
+            // Check if we have a new Superheading
+            if (superheading && superheading.length > 0) {
+                lastSuperheading = superheading; // Store the current superheading
+                if (!supermodules[lastSuperheading]) {
+                    supermodules[lastSuperheading] = {}; // Initialize the superheading
+                }
+            }
 
-     <!--************************ SEM 2 *************************************** -->
-<h2><strong>Sem-2</strong></h2>
+            // Check if we have a new heading under the current superheading
+            if (heading && heading.length > 0 && lastSuperheading) {
+                lastHeading = heading; // Store the current heading
+                if (!supermodules[lastSuperheading][lastHeading]) {
+                    supermodules[lastSuperheading][lastHeading] = {}; // Initialize the heading
+                }
+            }
 
-<details>
-  <summary><strong>1. DEEP REINFORCEMENT LEARNING (AIMLC ZG512)</strong></summary>
-  <ul>
-    <li><a href="https://example.com/lecture1" target="_blank">Lecture-1</a></li>
-    <li><a href="https://example.com/lecture2" target="_blank">Lecture-2</a></li>
-    <li><a href="https://example.com/lecture3" target="_blank">Lecture-3</a></li>
-    <li><a href="https://example.com/lecture4" target="_blank">Lecture-4</a></li>
-    <li><a href="https://example.com/lecture5" target="_blank">Lecture-5</a></li>
-    <li><a href="https://example.com/lecture6" target="_blank">Lecture-6</a></li>
-    <li><a href="https://example.com/lecture7" target="_blank">Lecture-7</a></li>
-    <li><a href="https://example.com/lecture8" target="_blank">Lecture-8</a></li>
-    <li><a href="https://example.com/lecture9" target="_blank">Lecture-9</a></li>
-    <li><a href="https://example.com/lecture10" target="_blank">Lecture-10</a></li>
-    <li><a href="https://example.com/lecture11" target="_blank">Lecture-11</a></li>
-    <li><a href="https://example.com/lecture12" target="_blank">Lecture-12</a></li>
-    <li><a href="https://example.com/lecture13" target="_blank">Lecture-13</a></li>
-    <li><a href="https://example.com/lecture14" target="_blank">Lecture-14</a></li>
-    <li><a href="https://example.com/lecture15" target="_blank">Lecture-15</a></li>
-    <li><a href="https://example.com/lecture16" target="_blank">Lecture-16</a></li>
-  </ul>
-</details>
+            // Check if we have a new subheading under the current heading
+            if (subheading && subheading.length > 0 && lastSuperheading && lastHeading) {
+                lastSubheading = subheading; // Store the current subheading
+                if (!supermodules[lastSuperheading][lastHeading][lastSubheading]) {
+                    supermodules[lastSuperheading][lastHeading][lastSubheading] = []; // Initialize the subheading
+                }
+            }
 
-<details>
-  <summary><strong>2. DATA MGMT FOR MACHINE LEARNING (AIMLC ZG529)</strong></summary>
-  <ul>
-    <li><a href="https://youtu.be/j-pkC2le7-Q" target="_blank">Lecture-1</a></li>
-    <li><a href="https://youtu.be/EvsVbOyqOPw" target="_blank">Lecture-2</a></li>
-    <li><a href="https://youtu.be/cEbzKsVCrlY?" target="_blank">Lecture-3</a></li>
-    <li><a href="https://youtu.be/WOmO-CEVWHg?" target="_blank">Lecture-4</a></li>
-    <li><a href="https://youtu.be/oqX0yWjFsNc?" target="_blank">Lecture-5</a></li>
-    <li><a href="https://example.com/lecture6?" target="_blank">Lecture-6</a></li>
-    <li><a href="https://example.com/lecture7" target="_blank">Lecture-7</a></li>
-    <li><a href="https://example.com/lecture8" target="_blank">Lecture-8</a></li>
-    <li><a href="https://example.com/lecture9" target="_blank">Lecture-9</a></li>
-    <li><a href="https://example.com/lecture10" target="_blank">Lecture-10</a></li>
-    <li><a href="https://example.com/lecture11" target="_blank">Lecture-11</a></li>
-    <li><a href="https://example.com/lecture12" target="_blank">Lecture-12</a></li>
-    <li><a href="https://example.com/lecture13" target="_blank">Lecture-13</a></li>
-    <li><a href="https://example.com/lecture14" target="_blank">Lecture-14</a></li>
-    <li><a href="https://example.com/lecture15" target="_blank">Lecture-15</a></li>
-    <li><a href="https://example.com/lecture16" target="_blank">Lecture-16</a></li>
-  </ul>
-</details>
+            // Add the resource link under the correct subheading, heading, and superheading
+            if (resourceLink && resourceLink.length > 0 && lastSuperheading && lastHeading && lastSubheading) {
+                supermodules[lastSuperheading][lastHeading][lastSubheading].push(resourceLink); // Add resource link
+            }
+        });
 
-<details>
-  <summary><strong>3. PROBABILISTIC GRAPHICAL MODELS (AIMLC ZG526)</strong></summary>
-  <ul>
-    <li><a href="https://example.com/lecture1" target="_blank">Lecture-1</a></li>
-    <li><a href="https://example.com/lecture2" target="_blank">Lecture-2</a></li>
-    <li><a href="https://example.com/lecture3" target="_blank">Lecture-3</a></li>
-    <li><a href="https://example.com/lecture4" target="_blank">Lecture-4</a></li>
-    <li><a href="https://example.com/lecture5" target="_blank">Lecture-5</a></li>
-    <li><a href="https://example.com/lecture6" target="_blank">Lecture-6</a></li>
-    <li><a href="https://example.com/lecture7" target="_blank">Lecture-7</a></li>
-    <li><a href="https://example.com/lecture8" target="_blank">Lecture-8</a></li>
-    <li><a href="https://example.com/lecture9" target="_blank">Lecture-9</a></li>
-    <li><a href="https://example.com/lecture10" target="_blank">Lecture-10</a></li>
-    <li><a href="https://example.com/lecture11" target="_blank">Lecture-11</a></li>
-    <li><a href="https://example.com/lecture12" target="_blank">Lecture-12</a></li>
-    <li><a href="https://example.com/lecture13" target="_blank">Lecture-13</a></li>
-    <li><a href="https://example.com/lecture14" target="_blank">Lecture-14</a></li>
-    <li><a href="https://example.com/lecture15" target="_blank">Lecture-15</a></li>
-    <li><a href="https://example.com/lecture16" target="_blank">Lecture-16</a></li>
-  </ul>
-</details>
+        // After collecting all data, render it in the UI
+        generateCourseContent(supermodules);
+    }
 
-<details>
-  <summary><strong>4. DEEP NEURAL NETWORKS (AIMLC ZG511)</strong></summary>
-  <ul>
-    <li><a href="https://example.com/lecture1" target="_blank">Lecture-1</a></li>
-    <li><a href="https://example.com/lecture2" target="_blank">Lecture-2</a></li>
-    <li><a href="https://example.com/lecture3" target="_blank">Lecture-3</a></li>
-    <li><a href="https://example.com/lecture4" target="_blank">Lecture-4</a></li>
-    <li><a href="https://example.com/lecture5" target="_blank">Lecture-5</a></li>
-    <li><a href="https://example.com/lecture6" target="_blank">Lecture-6</a></li>
-    <li><a href="https://example.com/lecture7" target="_blank">Lecture-7</a></li>
-    <li><a href="https://example.com/lecture8" target="_blank">Lecture-8</a></li>
-    <li><a href="https://example.com/lecture9" target="_blank">Lecture-9</a></li>
-    <li><a href="https://example.com/lecture10" target="_blank">Lecture-10</a></li>
-    <li><a href="https://example.com/lecture11" target="_blank">Lecture-11</a></li>
-    <li><a href="https://example.com/lecture12" target="_blank">Lecture-12</a></li>
-    <li><a href="https://example.com/lecture13" target="_blank">Lecture-13</a></li>
-    <li><a href="https://example.com/lecture14" target="_blank">Lecture-14</a></li>
-    <li><a href="https://example.com/lecture15" target="_blank">Lecture-15</a></li>
-    <li><a href="https://example.com/lecture16" target="_blank">Lecture-16</a></li>
-  </ul>
-</details>
-    
-<details>
-  <summary><strong>5. Other-5 (Yet to add)</strong></summary>
-  <ul>
-    <li><a href="https://example.com/lecture1" target="_blank">Lecture-1</a></li>
-    <li><a href="https://example.com/lecture2" target="_blank">Lecture-2</a></li>
-    <li><a href="https://example.com/lecture3" target="_blank">Lecture-3</a></li>
-    <li><a href="https://example.com/lecture4" target="_blank">Lecture-4</a></li>
-    <li><a href="https://example.com/lecture5" target="_blank">Lecture-5</a></li>
-    <li><a href="https://example.com/lecture6" target="_blank">Lecture-6</a></li>
-    <li><a href="https://example.com/lecture7" target="_blank">Lecture-7</a></li>
-    <li><a href="https://example.com/lecture8" target="_blank">Lecture-8</a></li>
-    <li><a href="https://example.com/lecture9" target="_blank">Lecture-9</a></li>
-    <li><a href="https://example.com/lecture10" target="_blank">Lecture-10</a></li>
-    <li><a href="https://example.com/lecture11" target="_blank">Lecture-11</a></li>
-    <li><a href="https://example.com/lecture12" target="_blank">Lecture-12</a></li>
-    <li><a href="https://example.com/lecture13" target="_blank">Lecture-13</a></li>
-    <li><a href="https://example.com/lecture14" target="_blank">Lecture-14</a></li>
-    <li><a href="https://example.com/lecture15" target="_blank">Lecture-15</a></li>
-    <li><a href="https://example.com/lecture16" target="_blank">Lecture-16</a></li>
-  </ul>
-</details>
+    // Function to dynamically generate the course content after grouping the data
+    function generateCourseContent(supermodules) {
+        const container = document.getElementById('course-content');
+        container.innerHTML = ''; // Clear any existing content
 
-<details>
-  <summary><strong>5. Other-6 (Yet to add)</strong></summary>
-  <ul>
-    <li><a href="https://example.com/lecture1" target="_blank">Lecture-1</a></li>
-    <li><a href="https://example.com/lecture2" target="_blank">Lecture-2</a></li>
-    <li><a href="https://example.com/lecture3" target="_blank">Lecture-3</a></li>
-    <li><a href="https://example.com/lecture4" target="_blank">Lecture-4</a></li>
-    <li><a href="https://example.com/lecture5" target="_blank">Lecture-5</a></li>
-    <li><a href="https://example.com/lecture6" target="_blank">Lecture-6</a></li>
-    <li><a href="https://example.com/lecture7" target="_blank">Lecture-7</a></li>
-    <li><a href="https://example.com/lecture8" target="_blank">Lecture-8</a></li>
-    <li><a href="https://example.com/lecture9" target="_blank">Lecture-9</a></li>
-    <li><a href="https://example.com/lecture10" target="_blank">Lecture-10</a></li>
-    <li><a href="https://example.com/lecture11" target="_blank">Lecture-11</a></li>
-    <li><a href="https://example.com/lecture12" target="_blank">Lecture-12</a></li>
-    <li><a href="https://example.com/lecture13" target="_blank">Lecture-13</a></li>
-    <li><a href="https://example.com/lecture14" target="_blank">Lecture-14</a></li>
-    <li><a href="https://example.com/lecture15" target="_blank">Lecture-15</a></li>
-    <li><a href="https://example.com/lecture16" target="_blank">Lecture-16</a></li>
-  </ul>
-</details>
+        // Iterate over each Superheading in the supermodules
+        for (const superheading in supermodules) {
+            if (supermodules.hasOwnProperty(superheading)) {
+                // Create a new details section for each Superheading
+                let superheadingHTML = `<details><summary>${superheading}</summary>`;
 
-<details>
-  <summary><strong>5. Other-7 (Yet to add)</strong></summary>
-  <ul>
-    <li><a href="https://example.com/lecture1" target="_blank">Lecture-1</a></li>
-    <li><a href="https://example.com/lecture2" target="_blank">Lecture-2</a></li>
-    <li><a href="https://example.com/lecture3" target="_blank">Lecture-3</a></li>
-    <li><a href="https://example.com/lecture4" target="_blank">Lecture-4</a></li>
-    <li><a href="https://example.com/lecture5" target="_blank">Lecture-5</a></li>
-    <li><a href="https://example.com/lecture6" target="_blank">Lecture-6</a></li>
-    <li><a href="https://example.com/lecture7" target="_blank">Lecture-7</a></li>
-    <li><a href="https://example.com/lecture8" target="_blank">Lecture-8</a></li>
-    <li><a href="https://example.com/lecture9" target="_blank">Lecture-9</a></li>
-    <li><a href="https://example.com/lecture10" target="_blank">Lecture-10</a></li>
-    <li><a href="https://example.com/lecture11" target="_blank">Lecture-11</a></li>
-    <li><a href="https://example.com/lecture12" target="_blank">Lecture-12</a></li>
-    <li><a href="https://example.com/lecture13" target="_blank">Lecture-13</a></li>
-    <li><a href="https://example.com/lecture14" target="_blank">Lecture-14</a></li>
-    <li><a href="https://example.com/lecture15" target="_blank">Lecture-15</a></li>
-    <li><a href="https://example.com/lecture16" target="_blank">Lecture-16</a></li>
-  </ul>
-</details>
+                // Iterate over each Heading under the Superheading
+                for (const heading in supermodules[superheading]) {
+                    if (supermodules[superheading].hasOwnProperty(heading)) {
+                        superheadingHTML += `<details><summary>${heading}</summary>`;
 
-<details>
-  <summary><strong>5. Other-8 (Yet to add)</strong></summary>
-  <ul>
-    <li><a href="https://example.com/lecture1" target="_blank">Lecture-1</a></li>
-    <li><a href="https://example.com/lecture2" target="_blank">Lecture-2</a></li>
-    <li><a href="https://example.com/lecture3" target="_blank">Lecture-3</a></li>
-    <li><a href="https://example.com/lecture4" target="_blank">Lecture-4</a></li>
-    <li><a href="https://example.com/lecture5" target="_blank">Lecture-5</a></li>
-    <li><a href="https://example.com/lecture6" target="_blank">Lecture-6</a></li>
-    <li><a href="https://example.com/lecture7" target="_blank">Lecture-7</a></li>
-    <li><a href="https://example.com/lecture8" target="_blank">Lecture-8</a></li>
-    <li><a href="https://example.com/lecture9" target="_blank">Lecture-9</a></li>
-    <li><a href="https://example.com/lecture10" target="_blank">Lecture-10</a></li>
-    <li><a href="https://example.com/lecture11" target="_blank">Lecture-11</a></li>
-    <li><a href="https://example.com/lecture12" target="_blank">Lecture-12</a></li>
-    <li><a href="https://example.com/lecture13" target="_blank">Lecture-13</a></li>
-    <li><a href="https://example.com/lecture14" target="_blank">Lecture-14</a></li>
-    <li><a href="https://example.com/lecture15" target="_blank">Lecture-15</a></li>
-    <li><a href="https://example.com/lecture16" target="_blank">Lecture-16</a></li>
-  </ul>
-</details>
+                        // Iterate over each Sub-Heading under the Heading
+                        for (const subheading in supermodules[superheading][heading]) {
+                            if (supermodules[superheading][heading].hasOwnProperty(subheading)) {
+                                superheadingHTML += `<details class="sub-heading"><summary>${subheading}</summary><ul>`;
 
-<details>
-  <summary><strong>5. Other-9 (Yet to add)</strong></summary>
-  <ul>
-    <li><a href="https://example.com/lecture1" target="_blank">Lecture-1</a></li>
-    <li><a href="https://example.com/lecture2" target="_blank">Lecture-2</a></li>
-    <li><a href="https://example.com/lecture3" target="_blank">Lecture-3</a></li>
-    <li><a href="https://example.com/lecture4" target="_blank">Lecture-4</a></li>
-    <li><a href="https://example.com/lecture5" target="_blank">Lecture-5</a></li>
-    <li><a href="https://example.com/lecture6" target="_blank">Lecture-6</a></li>
-    <li><a href="https://example.com/lecture7" target="_blank">Lecture-7</a></li>
-    <li><a href="https://example.com/lecture8" target="_blank">Lecture-8</a></li>
-    <li><a href="https://example.com/lecture9" target="_blank">Lecture-9</a></li>
-    <li><a href="https://example.com/lecture10" target="_blank">Lecture-10</a></li>
-    <li><a href="https://example.com/lecture11" target="_blank">Lecture-11</a></li>
-    <li><a href="https://example.com/lecture12" target="_blank">Lecture-12</a></li>
-    <li><a href="https://example.com/lecture13" target="_blank">Lecture-13</a></li>
-    <li><a href="https://example.com/lecture14" target="_blank">Lecture-14</a></li>
-    <li><a href="https://example.com/lecture15" target="_blank">Lecture-15</a></li>
-    <li><a href="https://example.com/lecture16" target="_blank">Lecture-16</a></li>
-  </ul>
-</details>
+                                // Iterate over each Resource Link under the Sub-Heading
+                                supermodules[superheading][heading][subheading].forEach(link => {
+                                    superheadingHTML += `<li><a href="${link}" target="_blank">${link}</a></li>`;
+                                });
 
-     <!--************************ SEM 3 *************************************** -->
-<h2><strong>Sem-3</strong></h2>
+                                superheadingHTML += `</ul></details>`; // Close the subheading's details
+                            }
+                        }
 
-<details>
-  <summary><strong>1. VIDEO ANALYTICS (AIMLC ZG531)</strong></summary>
-  <ul>
-    <li><a href="https://example.com/lecture1" target="_blank">Lecture-1</a></li>
-    <li><a href="https://example.com/lecture2" target="_blank">Lecture-2</a></li>
-    <li><a href="https://example.com/lecture3" target="_blank">Lecture-3</a></li>
-    <li><a href="https://example.com/lecture4" target="_blank">Lecture-4</a></li>
-    <li><a href="https://example.com/lecture5" target="_blank">Lecture-5</a></li>
-    <li><a href="https://example.com/lecture6" target="_blank">Lecture-6</a></li>
-    <li><a href="https://example.com/lecture7" target="_blank">Lecture-7</a></li>
-    <li><a href="https://example.com/lecture8" target="_blank">Lecture-8</a></li>
-    <li><a href="https://example.com/lecture9" target="_blank">Lecture-9</a></li>
-    <li><a href="https://example.com/lecture10" target="_blank">Lecture-10</a></li>
-    <li><a href="https://example.com/lecture11" target="_blank">Lecture-11</a></li>
-    <li><a href="https://example.com/lecture12" target="_blank">Lecture-12</a></li>
-    <li><a href="https://example.com/lecture13" target="_blank">Lecture-13</a></li>
-    <li><a href="https://example.com/lecture14" target="_blank">Lecture-14</a></li>
-    <li><a href="https://example.com/lecture15" target="_blank">Lecture-15</a></li>
-    <li><a href="https://example.com/lecture16" target="_blank">Lecture-16</a></li>
-  </ul>
-</details>
+                        superheadingHTML += `</details>`; // Close the heading's details
+                    }
+                }
 
-<details>
-  <summary><strong>2. MLOPS (AIMLC ZG523)</strong></summary>
-  <ul>
-    <li><a href="https://example.com/lecture1" target="_blank">Lecture-1</a></li>
-    <li><a href="https://example.com/lecture2" target="_blank">Lecture-2</a></li>
-    <li><a href="https://example.com/lecture3" target="_blank">Lecture-3</a></li>
-    <li><a href="https://example.com/lecture4" target="_blank">Lecture-4</a></li>
-    <li><a href="https://example.com/lecture5" target="_blank">Lecture-5</a></li>
-    <li><a href="https://example.com/lecture6" target="_blank">Lecture-6</a></li>
-    <li><a href="https://example.com/lecture7" target="_blank">Lecture-7</a></li>
-    <li><a href="https://example.com/lecture8" target="_blank">Lecture-8</a></li>
-    <li><a href="https://example.com/lecture9" target="_blank">Lecture-9</a></li>
-    <li><a href="https://example.com/lecture10" target="_blank">Lecture-10</a></li>
-    <li><a href="https://example.com/lecture11" target="_blank">Lecture-11</a></li>
-    <li><a href="https://example.com/lecture12" target="_blank">Lecture-12</a></li>
-    <li><a href="https://example.com/lecture13" target="_blank">Lecture-13</a></li>
-    <li><a href="https://example.com/lecture14" target="_blank">Lecture-14</a></li>
-    <li><a href="https://example.com/lecture15" target="_blank">Lecture-15</a></li>
-    <li><a href="https://example.com/lecture16" target="_blank">Lecture-16</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary><strong>3. GRAPH NEURAL NETWORKS (AIMLC ZG514)</strong></summary>
-  <ul>
-    <li><a href="https://example.com/lecture1" target="_blank">Lecture-1</a></li>
-    <li><a href="https://example.com/lecture2" target="_blank">Lecture-2</a></li>
-    <li><a href="https://example.com/lecture3" target="_blank">Lecture-3</a></li>
-    <li><a href="https://example.com/lecture4" target="_blank">Lecture-4</a></li>
-    <li><a href="https://example.com/lecture5" target="_blank">Lecture-5</a></li>
-    <li><a href="https://example.com/lecture6" target="_blank">Lecture-6</a></li>
-    <li><a href="https://example.com/lecture7" target="_blank">Lecture-7</a></li>
-    <li><a href="https://example.com/lecture8" target="_blank">Lecture-8</a></li>
-    <li><a href="https://example.com/lecture9" target="_blank">Lecture-9</a></li>
-    <li><a href="https://example.com/lecture10" target="_blank">Lecture-10</a></li>
-    <li><a href="https://example.com/lecture11" target="_blank">Lecture-11</a></li>
-    <li><a href="https://example.com/lecture12" target="_blank">Lecture-12</a></li>
-    <li><a href="https://example.com/lecture13" target="_blank">Lecture-13</a></li>
-    <li><a href="https://example.com/lecture14" target="_blank">Lecture-14</a></li>
-    <li><a href="https://example.com/lecture15" target="_blank">Lecture-15</a></li>
-    <li><a href="https://example.com/lecture16" target="_blank">Lecture-16</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary><strong>4. ADVANCED DEEP LEARNING (AIMLC ZG513)</strong></summary>
-  <ul>
-    <li><a href="https://example.com/lecture1" target="_blank">Lecture-1</a></li>
-    <li><a href="https://example.com/lecture2" target="_blank">Lecture-2</a></li>
-    <li><a href="https://example.com/lecture3" target="_blank">Lecture-3</a></li>
-    <li><a href="https://example.com/lecture4" target="_blank">Lecture-4</a></li>
-    <li><a href="https://example.com/lecture5" target="_blank">Lecture-5</a></li>
-    <li><a href="https://example.com/lecture6" target="_blank">Lecture-6</a></li>
-    <li><a href="https://example.com/lecture7" target="_blank">Lecture-7</a></li>
-    <li><a href="https://example.com/lecture8" target="_blank">Lecture-8</a></li>
-    <li><a href="https://example.com/lecture9" target="_blank">Lecture-9</a></li>
-    <li><a href="https://example.com/lecture10" target="_blank">Lecture-10</a></li>
-    <li><a href="https://example.com/lecture11" target="_blank">Lecture-11</a></li>
-    <li><a href="https://example.com/lecture12" target="_blank">Lecture-12</a></li>
-    <li><a href="https://example.com/lecture13" target="_blank">Lecture-13</a></li>
-    <li><a href="https://example.com/lecture14" target="_blank">Lecture-14</a></li>
-    <li><a href="https://example.com/lecture15" target="_blank">Lecture-15</a></li>
-    <li><a href="https://example.com/lecture16" target="_blank">Lecture-16</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary><strong>5. Other-5 (Yet to add)</strong></summary>
-  <ul>
-    <li><a href="https://example.com/lecture1" target="_blank">Lecture-1</a></li>
-    <li><a href="https://example.com/lecture2" target="_blank">Lecture-2</a></li>
-    <li><a href="https://example.com/lecture3" target="_blank">Lecture-3</a></li>
-    <li><a href="https://example.com/lecture4" target="_blank">Lecture-4</a></li>
-    <li><a href="https://example.com/lecture5" target="_blank">Lecture-5</a></li>
-    <li><a href="https://example.com/lecture6" target="_blank">Lecture-6</a></li>
-    <li><a href="https://example.com/lecture7" target="_blank">Lecture-7</a></li>
-    <li><a href="https://example.com/lecture8" target="_blank">Lecture-8</a></li>
-    <li><a href="https://example.com/lecture9" target="_blank">Lecture-9</a></li>
-    <li><a href="https://example.com/lecture10" target="_blank">Lecture-10</a></li>
-    <li><a href="https://example.com/lecture11" target="_blank">Lecture-11</a></li>
-    <li><a href="https://example.com/lecture12" target="_blank">Lecture-12</a></li>
-    <li><a href="https://example.com/lecture13" target="_blank">Lecture-13</a></li>
-    <li><a href="https://example.com/lecture14" target="_blank">Lecture-14</a></li>
-    <li><a href="https://example.com/lecture15" target="_blank">Lecture-15</a></li>
-    <li><a href="https://example.com/lecture16" target="_blank">Lecture-16</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary><strong>5. Other-6 (Yet to add)</strong></summary>
-  <ul>
-    <li><a href="https://example.com/lecture1" target="_blank">Lecture-1</a></li>
-    <li><a href="https://example.com/lecture2" target="_blank">Lecture-2</a></li>
-    <li><a href="https://example.com/lecture3" target="_blank">Lecture-3</a></li>
-    <li><a href="https://example.com/lecture4" target="_blank">Lecture-4</a></li>
-    <li><a href="https://example.com/lecture5" target="_blank">Lecture-5</a></li>
-    <li><a href="https://example.com/lecture6" target="_blank">Lecture-6</a></li>
-    <li><a href="https://example.com/lecture7" target="_blank">Lecture-7</a></li>
-    <li><a href="https://example.com/lecture8" target="_blank">Lecture-8</a></li>
-    <li><a href="https://example.com/lecture9" target="_blank">Lecture-9</a></li>
-    <li><a href="https://example.com/lecture10" target="_blank">Lecture-10</a></li>
-    <li><a href="https://example.com/lecture11" target="_blank">Lecture-11</a></li>
-    <li><a href="https://example.com/lecture12" target="_blank">Lecture-12</a></li>
-    <li><a href="https://example.com/lecture13" target="_blank">Lecture-13</a></li>
-    <li><a href="https://example.com/lecture14" target="_blank">Lecture-14</a></li>
-    <li><a href="https://example.com/lecture15" target="_blank">Lecture-15</a></li>
-    <li><a href="https://example.com/lecture16" target="_blank">Lecture-16</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary><strong>5. Other-7 (Yet to add)</strong></summary>
-  <ul>
-    <li><a href="https://example.com/lecture1" target="_blank">Lecture-1</a></li>
-    <li><a href="https://example.com/lecture2" target="_blank">Lecture-2</a></li>
-    <li><a href="https://example.com/lecture3" target="_blank">Lecture-3</a></li>
-    <li><a href="https://example.com/lecture4" target="_blank">Lecture-4</a></li>
-    <li><a href="https://example.com/lecture5" target="_blank">Lecture-5</a></li>
-    <li><a href="https://example.com/lecture6" target="_blank">Lecture-6</a></li>
-    <li><a href="https://example.com/lecture7" target="_blank">Lecture-7</a></li>
-    <li><a href="https://example.com/lecture8" target="_blank">Lecture-8</a></li>
-    <li><a href="https://example.com/lecture9" target="_blank">Lecture-9</a></li>
-    <li><a href="https://example.com/lecture10" target="_blank">Lecture-10</a></li>
-    <li><a href="https://example.com/lecture11" target="_blank">Lecture-11</a></li>
-    <li><a href="https://example.com/lecture12" target="_blank">Lecture-12</a></li>
-    <li><a href="https://example.com/lecture13" target="_blank">Lecture-13</a></li>
-    <li><a href="https://example.com/lecture14" target="_blank">Lecture-14</a></li>
-    <li><a href="https://example.com/lecture15" target="_blank">Lecture-15</a></li>
-    <li><a href="https://example.com/lecture16" target="_blank">Lecture-16</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary><strong>5. Other-8 (Yet to add)</strong></summary>
-  <ul>
-    <li><a href="https://example.com/lecture1" target="_blank">Lecture-1</a></li>
-    <li><a href="https://example.com/lecture2" target="_blank">Lecture-2</a></li>
-    <li><a href="https://example.com/lecture3" target="_blank">Lecture-3</a></li>
-    <li><a href="https://example.com/lecture4" target="_blank">Lecture-4</a></li>
-    <li><a href="https://example.com/lecture5" target="_blank">Lecture-5</a></li>
-    <li><a href="https://example.com/lecture6" target="_blank">Lecture-6</a></li>
-    <li><a href="https://example.com/lecture7" target="_blank">Lecture-7</a></li>
-    <li><a href="https://example.com/lecture8" target="_blank">Lecture-8</a></li>
-    <li><a href="https://example.com/lecture9" target="_blank">Lecture-9</a></li>
-    <li><a href="https://example.com/lecture10" target="_blank">Lecture-10</a></li>
-    <li><a href="https://example.com/lecture11" target="_blank">Lecture-11</a></li>
-    <li><a href="https://example.com/lecture12" target="_blank">Lecture-12</a></li>
-    <li><a href="https://example.com/lecture13" target="_blank">Lecture-13</a></li>
-    <li><a href="https://example.com/lecture14" target="_blank">Lecture-14</a></li>
-    <li><a href="https://example.com/lecture15" target="_blank">Lecture-15</a></li>
-    <li><a href="https://example.com/lecture16" target="_blank">Lecture-16</a></li>
-  </ul>
-</details>
+                superheadingHTML += `</details>`; // Close the superheading's details
+                container.innerHTML += superheadingHTML; // Add the generated HTML to the container
+            }
+        }
+    }
+</script>
 
 </body>
 </html>

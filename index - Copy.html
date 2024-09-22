@@ -80,6 +80,7 @@
             console.error('Error loading the CSV file:', error);
         });
 
+
     function processCSVData(data) {
         const supermodules = {}; // Dictionary to store all data grouped by Superheading > Heading > Sub-Heading > Resource Links
         let lastSuperheading = null;
@@ -121,15 +122,9 @@
 
             // Add the resource link and URL under the correct subheading, heading, and superheading
             if (resourceLink && resourceURL && lastSuperheading && lastHeading && lastSubheading) {
-                // Check if the resource link ends with 'pdf'
-                const linkIsFILE = resourceLink.toLowerCase().endsWith("file");
-
-                // If it's a FILE, append '?raw=true' to the URL
-                const finalURL = linkIsFILE ? resourceURL + "?raw=true" : resourceURL;
-
                 supermodules[lastSuperheading][lastHeading][lastSubheading].push({
                     linkText: resourceLink,
-                    linkURL: finalURL
+                    linkURL: resourceURL
                 });
             }
         });
